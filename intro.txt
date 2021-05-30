@@ -1,0 +1,2 @@
+What is data structure ?
+=> a data structure is a particular way of organizing data in a computer so that it can be use effectively. The idea is to reduce the space and time complexity of different task. 
