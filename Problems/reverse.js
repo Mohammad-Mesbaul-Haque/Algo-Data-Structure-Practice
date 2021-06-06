@@ -17,3 +17,10 @@ function strReverse2(str) {
 }
 
 console.log(strReverse2('I love you'));
+
+//third solution
+function strReverse3(str) {
+    return str.split('').reduce((reversed, character) => character + reversed, '');
+}
+
+console.log(strReverse3('I love you'));
