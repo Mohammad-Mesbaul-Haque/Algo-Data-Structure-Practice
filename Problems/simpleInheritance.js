@@ -1,3 +1,4 @@
+// prototype is like the recipe for creating an object . 
 //defining a supertype function
 function Animal() {} ;
 
