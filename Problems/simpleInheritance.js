@@ -1,4 +1,9 @@
 // prototype is like the recipe for creating an object . 
+// When an object inherits its prototype from another object, it also inherits the supertype's constructor property.
+
+//ChildObject.prototype = Object.create(ParentObject.prototype);
+
+
 //defining a supertype function
 function Animal() {} ;
 
