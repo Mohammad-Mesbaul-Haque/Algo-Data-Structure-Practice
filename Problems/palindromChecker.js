@@ -6,3 +6,16 @@
  * Date: 19/07/2021
  */
 
+// trick 1
+function palindrome(string) {
+    const reversedStr = string.split('').reverse().join('');
+    if (string === reversedStr) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
+console.log( palindrome('madam'));
+console.log( palindrome('hello'));
