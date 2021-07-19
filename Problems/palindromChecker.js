@@ -25,7 +25,7 @@ console.log( palindrome('hello'));
 function palindrome2(string) {
     const strArray = string.split('');
     for(let i = 0; i < strArray.length; i++){
-        if (strArray[i] === strArray[strArray.length - 1]) {
+        if (strArray[i] === strArray[strArray.length - 1 - i ]) {
             return string + ' is palindrome';
         } else {
             return string + ' is not a palindrome';
@@ -36,3 +36,12 @@ function palindrome2(string) {
 
 console.log( palindrome2('hello'));
 console.log( palindrome2('madam'));
+
+
+// Trick 3
+function palindrome3(str) {
+   return str.split('').every((char, index)=>char === str[str.length - 1 - index])
+}
+
+console.log(palindrome3('madam'));
+console.log(palindrome3('hello'));
