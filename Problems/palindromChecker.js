@@ -45,3 +45,4 @@ function palindrome3(str) {
 
 console.log(palindrome3('madam'));
 console.log(palindrome3('hello'));
+//
