@@ -38,6 +38,26 @@ function anagrams(stringOne, stringTwo) {
 }
 
 
-console.log(anagrams('blah', 'halb'));
+console.log(anagrams('fairy tales', 'rail safety'));
 
 
+// Solution 2 to find an anagram
+// Psudo code
+// 1. First of all we clean both of the strings that means remove all special characters
+// 2. The definition of anagram says that both of the string's chars will be same that lead us to sort strings and compare.
+
+
+// first we define  a sorter function with various methods
+function sortString(string) {
+    return string.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('');
+}
+
+
+function anagram2(str1, str2) {
+    const cleanedString = sortString(str1);
+    const cleanedString2 = sortString(str2);
+    
+    return  cleanedString === cleanedString2;
+}
+
+console.log(anagram2('debit card', 'bad credit'));
