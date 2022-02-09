@@ -1,0 +1,14 @@
+What is runtime complexity?
+It describes the performance of an algorithm. If we double input , how much it will impact on processing power or time explains the runtime complexity.
+example: If 10 inputs cost 10 seconds, after doubling the input if it takes 20 seconds then  it will be n time complexity. Contrary if it takes same time or 10 seconds then  it will be constant time complexity (1)
+
+CONSTANT TIME:
+It will take same amount of time whether we work with any amount of elements. example: Access a property of object using key.
+
+LOGARITHMIC TIME:
+Time or work won't be double if we double out input rather it will increase a little amount of time. example: binary search
+
+LINEAR TIME:
+Time or work will increase exact same of elements or inputs. example: string reverse
+
+COASILINEAR
