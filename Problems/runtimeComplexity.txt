@@ -11,4 +11,18 @@ Time or work won't be double if we double out input rather it will increase a li
 LINEAR TIME:
 Time or work will increase exact same of elements or inputs. example: string reverse
 
-COASILINEAR
+COASILINEAR TIME:
+
+
+QUADRATIC TIME:
+
+
+EXPONENTIAL TIME:
+
+different complexity's comparative:
+1. Constant time complexity is best among all.
+2. Logarithmic time complexity is good
+3. Linear time complexity also good relatively rest of others.
+4. COASILINEAR time complexity is not so good.
+5. Quadratic time complexity is is so much bad.
+6. Exponential time complexity is worst among others.
